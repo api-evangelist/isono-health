@@ -1,7 +1,26 @@
 aid: isono-health
 name: Isono Health
-description: Isono Health is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'iSono Health is a Sunnyvale, California medical device company behind
+  ATUSA, described as the first AI-driven portable and automated 3D breast ultrasound
+  scanner. ATUSA performs fully automated whole-breast imaging in about two minutes
+  per breast without a trained sonographer, pairing a 3D ultrasound scanner and wearable
+  accessory with a Windows desktop/tablet application and HIPAA-compliant cloud storage
+  for real-time 2D and 3D visualization, lesion localization, and remote monitoring.
+  The system is FDA 510(k) cleared and targets more accessible point-of-care breast
+  cancer screening and monitoring. iSono Health is a Y Combinator-backed company. No
+  public developer API, SDK, or documentation surface is currently published.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://isonohealth.com/wp-content/uploads/2025/11/Atusa_rgb_blue.png
 url: https://raw.githubusercontent.com/api-evangelist/isono-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +30,33 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Medical Devices
+- Medical Imaging
+- Breast Imaging
+- Ultrasound
+- Women's Health
+- Diagnostics
+- Health
+- FDA Cleared
+- Y Combinator
 apis: []
+common:
+- type: Website
+  url: https://isonohealth.com
+- type: Support
+  url: https://isonohealth.com/contact-us/
+- type: DomainSecurity
+  url: security/isono-health-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
