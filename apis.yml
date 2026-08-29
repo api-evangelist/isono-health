@@ -9,6 +9,17 @@ description: 'iSono Health is a Sunnyvale, California medical device company beh
   The system is FDA 510(k) cleared and targets more accessible point-of-care breast
   cancer screening and monitoring. iSono Health is a Y Combinator-backed company. No
   public developer API, SDK, or documentation surface is currently published.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
